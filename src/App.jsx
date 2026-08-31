@@ -151,7 +151,14 @@ function App() {
             <h1>We're crafting<br />emotional<br />experiences aimed<br />at improving<br />results</h1>
           </div>
         </section>
+        <footer>
+          <div className="left">
+            <small>Educational Clone built with React & Three.js. Original design and 3D assets belong to Dogstudio / DEPT®.</small>
+          </div>
+
+        </footer>
       </main>
+
     </>
   )
 }
