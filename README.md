@@ -2,7 +2,7 @@
 
 A high-performance, interactive 3D clone of the award-winning Dogstudio agency website, built to showcase complex 3D rendering and scroll-triggered animations in a modern web environment.
 
-**🔗 [View Live Demo Here](YOUR_VERCEL_LINK_HERE)**
+**🔗 [View Live Demo Here](https://dogstudio-clone-ashy.vercel.app/)**
 
 ---
 
