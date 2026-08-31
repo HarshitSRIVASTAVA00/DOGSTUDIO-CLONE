@@ -1,16 +1,25 @@
-# React + Vite
+# Dogstudio 3D WebGL Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, interactive 3D clone of the award-winning Dogstudio agency website, built to showcase complex 3D rendering and scroll-triggered animations in a modern web environment.
 
-Currently, two official plugins are available:
+**🔗 [View Live Demo Here](YOUR_VERCEL_LINK_HERE)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### ⚠️ Disclaimer
+**This is an educational clone built purely for technical practice and portfolio demonstration.** All original designs, intellectual property, 3D assets, and branding belong exclusively to [Dogstudio / DEPT®](https://dogstudio.co/). 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 🛠️ Tech Stack
+*   **Framework:** React + Vite
+*   **3D Rendering:** Three.js, React Three Fiber (R3F), React Three Drei
+*   **Animations:** GSAP (ScrollTrigger)
+*   **Styling:** Vanilla CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✨ Key Technical Features
+*   **Scroll-Driven 3D Animation:** Integrated GSAP's ScrollTrigger with React Three Fiber to bind the camera position and the 3D dog model's rotation/scale directly to the user's scroll progress.
+*   **Custom Shader Materials:** Overrode standard Three.js fragment shaders (`onBeforeCompile`) to achieve smooth, liquid-like transitions between different Matcap textures on hover.
+*   **Dynamic Asset Loading:** Utilized GLTF loaders and optimized texture mapping to render high-fidelity 3D objects with environmental lighting.
+*   **Responsive UI Overlay:** Built a fully responsive HTML overlay that sits on top of the webGL canvas without blocking pointer events, perfectly matching the original editorial layout.
+
