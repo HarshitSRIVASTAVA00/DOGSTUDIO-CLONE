@@ -152,7 +152,7 @@ function App() {
           </div>
         </section>
         <footer>
-          <div className="left">
+          <div className="right">
             <small>Educational Clone built with React & Three.js. Original design and 3D assets belong to Dogstudio / DEPT®.</small>
           </div>
 
