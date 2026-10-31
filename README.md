@@ -1,4 +1,4 @@
-# Dogstudio 3D WebGL Clone
+# Dogstudio 3D WebGL Clone 
 
 A high-performance, interactive 3D clone of the award-winning Dogstudio agency website, built to showcase complex 3D rendering and scroll-triggered animations in a modern web environment.
 
